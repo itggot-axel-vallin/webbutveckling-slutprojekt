@@ -67,7 +67,7 @@ main{
     display: flex;
     flex-direction: row;
     font-size: 25px;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     font-family: 'Exo 2', sans-serif;
 }
 
@@ -90,35 +90,35 @@ span {
 .mainpic{
     height: 400px;
     width: 100vw;
-    background-color: grey;
+    background-color: ;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-family: 'Exo 2', sans-serif;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     font-size: 2rem;
 }
 
 .mainpic:nth-child(2){
-    background-color: white;
-    color: black;
+    /* background-co*lor*: white; */
+    /* color: black; */
 }
 .mainpic:nth-child(3){
-    background-color: red;
+    /* background-color: red; */
 }
 .mainpic:nth-child(4){
-    background-color: hotpink;
+    /* background-color: hotpink; */
 }
 .mainpic:nth-child(5){
-    background-color: blue;
+    /* background-color: blue; */
 }
 .mainpic:nth-child(6){
-    background-color: purple;
+    /* background-color: purple; */
 }
 .mainpic:nth-child(7){
-    background-color: green;
+    /* background-color: green; */
 }
 
 footer{
@@ -140,4 +140,91 @@ footer{
     /* background-color: white; */
     color: rgba(255, 255, 255, 0.5);
     font-family: 'exo 2', sans-serif;
+}
+
+nav{
+    position: fixed;
+    height: 100%;
+    background-color: white;
+    width: 100%;   
+    left: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.navhidden{
+    left: 0;
+}
+
+.navicon{
+    /* background-color: purple; */
+    height: 100px;
+    width: 100px;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.navicon i{
+    font-size: 2rem
+}
+
+.navbutton a{
+    text-decoration: none;
+    color: black
+}
+
+.navearth{
+    height: 100px;
+    position: fixed;
+    top: 42.5%;  
+    opacity: 100;
+    z-index: 100;
+    /* display: none */
+    background-color: white;
+}
+
+.earthhide{
+    display: none;
+}
+
+.categories{
+    opacity: 0;
+}
+
+.categories a{
+    color: black;
+    text-decoration: none;
+}
+
+.showcat{
+    height: 100px;
+    width: 100px;
+    opacity: 100;
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcat p{
+    font-family: 'exo 2', sans-serif;
+    margin: 2.5px
+}
+
+.navbutton{
+    height: 100px;
+    margin-top: 5%;
+    font-family: 'exo 2',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
