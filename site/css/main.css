@@ -2,14 +2,14 @@ body{
     height: 100vh;
     padding: 0;
     margin: 0;
-    background-image: url(../img/static.gif)
+    /* background-image: url(../img/static.gif) */
 }
 
 .wrapper{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: space-between;
     /* align-content: center; */
 }
 
@@ -18,7 +18,7 @@ header{
 }
 
 .headerwrapper h1{
-    color: white;
+    color: black;
     font-family: 'Exo 2',sans-serif;
     margin: 0;
 }
@@ -37,7 +37,7 @@ header{
 }
 
 .headerbuttons p{
-    color: white;
+    color: black;
     font-style: italic;
     font-family: 'Exo 2', sans-serif;
     text-decoration-line: underline;
@@ -46,6 +46,7 @@ header{
 main{
     height:auto; 
 }
+
 
 .marquee {
     height: 90px;
@@ -90,12 +91,12 @@ span {
 .mainpic{
     height: 400px;
     width: 100vw;
-    background-color: ;
+    /* background-color: ;   */
     flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
     font-family: 'Exo 2', sans-serif;
     /* font-weight: bolder; */
     font-size: 2rem;
@@ -126,7 +127,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;   
-    margin: auto 0 auto 0
+    margin-bottom: 10%
 }
 
 .about{
@@ -136,9 +137,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    
-    /* background-color: white; */
-    color: rgba(255, 255, 255, 0.5);
+    color: #505050;
     font-family: 'exo 2', sans-serif;
 }
 
