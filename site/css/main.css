@@ -206,6 +206,18 @@ nav{
     text-decoration: none;
 }
 
+#item1{
+    background: url(../img/af1_100.jpg);
+    height: 100px;
+    width: 100px;
+}
+
+#item2{
+    background: url(../img/af_100.jpg);
+    width: 100px;
+    height: 100px;
+}
+
 .showcat{
     height: 100px;
     width: 100px;
