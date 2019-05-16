@@ -485,16 +485,22 @@ hr{
 
 .catitem:nth-child(odd){
     left: -50%;
+    transition: left 0.5s;
 }
 
 .catitem:nth-child(even){
     right: -50%;
+    transition: right 0.5s;
+
 }
 
-.catitem:active{
+.catitem:nth-child(odd):active{
     left: 0;
+}
+
+.catitem:nth-child(even):active{
     right: 0;
-    trans
+    
 }
 
 
