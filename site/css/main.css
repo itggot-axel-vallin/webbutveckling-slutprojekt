@@ -469,6 +469,70 @@ hr{
     text-decoration: none;
 }
 
+.cataloguewrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.catitem{
+    height: 400px;
+    width: 100vw;
+    position: relative;
+    background: url(/img/af_415.jpg)
+    /* overflow-x: hidden; */
+}
+
+.catitem:nth-child(odd){
+    left: -50%;
+}
+
+.catitem:nth-child(even){
+    right: -50%;
+}
+
+.catitem:active{
+    left: 0;
+    right: 0;
+    trans
+}
+
+
+
+
+.catitem:nth-child(2){
+    background: url(/img/af1_415.jpg);
+}
+
+.catitem:nth-child(3){
+    background: url(/img/af2_415.jpg)
+}
+
+.catitem:nth-child(4){
+    background: url(/img/af3_415.jpg)
+}
+
+.catitem:nth-child(5){
+    background: url(/img/af4_415.jpg)
+}
+
+.catitem:nth-child(6){
+    background: url(/img/af5_415.jpg)
+}
+
+.catitem:nth-child(7){
+    background: url(/img/af6_415.jpg)
+}
+
+
+.catitem .shopitem{
+    width: 400px;
+    overflow-x: hidden
+}
+
+
+.catitem:nth-child(even)
+
 @media only screen  and (min-width : 1224px) {
 
     .mainwrapper .shoptitle{
