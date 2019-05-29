@@ -11,3 +11,10 @@ function showCategories(event){
     // let elem = document.querySelector("")
 }
 
+
+function showContact(event){
+    let menu = document.querySelector(".contact")
+    menu.classList.toggle("hidecontact")
+    let cat = document.querySelector(".contact2")
+    cat.classList.toggle("showcontact2")
+}

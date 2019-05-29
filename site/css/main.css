@@ -27,7 +27,7 @@ header{
 
 .headerwrapper h1{
     color: black;
-    font-family: 'Exo 2',sans-serif;
+    font-family: 'Orbitron',sans-serif;
     margin: 0;
 }
 
@@ -40,6 +40,7 @@ header{
 .headerbuttons{
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
     width: 100px; 
 }
 
@@ -140,6 +141,27 @@ footer{
     margin-bottom: 10%
 }
 
+.contact{
+    height: 75px;
+    width: 125px;
+}
+
+
+
+.contact2{
+    width: 125px;
+    height: 75px;
+    display: none;
+}
+
+.hidecontact{
+    display: none;
+}
+
+.showcontact2{
+    display: block;
+}
+
 .about{
     height: 100px;
     width: 250px;
@@ -149,6 +171,11 @@ footer{
     flex-direction: column;
     color: #505050;
     font-family: 'exo 2', sans-serif;
+}
+
+.about a{
+    text-decoration: none;
+    color: black;
 }
 
 nav{
@@ -175,6 +202,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .navicon i{
@@ -193,6 +221,7 @@ nav{
     opacity: 100;
     z-index: 100;
     background-color: white;
+    cursor: pointer;
 }
 
 .earthhide{
@@ -238,7 +267,7 @@ nav{
 .navbutton{
     height: 100px;
     margin-top: 5%;
-    font-family: 'exo 2',sans-serif;
+    font-family: 'orbitron',sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,7 +290,7 @@ nav{
 .shoptitle p{
     padding-left: 10px;
     margin: 0;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-style: italic
 }
 
@@ -334,7 +363,7 @@ hr{
 .text{
    font-weight: bold;
    font-size: 2rem;
-   font-family: 'exo 2'
+   font-family: 'orbitron'
 }
 
 .items{
@@ -377,7 +406,8 @@ hr{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    font-family: 'exo 2';  
+    font-family: 'orbitron';
+    font-style: italic;
 }
 
 .checkout:active{
@@ -385,10 +415,14 @@ hr{
 }
 
 .aboutsite{
-    height: 250px;
+    height: 400px;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    overflow: scroll;
 }
 
 .aboutsite h1{
@@ -398,6 +432,12 @@ hr{
 .aboutsite p{
     font-family: 'exo 2';
     padding: 10px;
+    /* text-align: center; */
+}
+
+.aboutwrapper h1{
+    font-family:'Orbitron', sans-serif;
+    text-align: center;
 }
 
 .shopitems a{
@@ -415,12 +455,23 @@ hr{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 .articlepic{
     background: url(../img/af_250.jpg);
     height: 250px;
     width: 250px;
+}
+
+.articledesc{
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto
 }
 
 .articletitle p{
@@ -445,7 +496,7 @@ hr{
     border: 1px solid black;
     width: 100px;
     height: 50px;
-    font-family: 'exo 2';
+    font-family: 'orbitron';
     display: flex;
     justify-content: center;
     align-items: center;
@@ -456,7 +507,7 @@ hr{
     border: 1px solid black;
     width: 100px;
     height: 50px;
-    font-family: 'exo 2';
+    font-family: 'orbitron';
     display: flex;
     justify-content: center;
     align-items: center;
@@ -684,5 +735,25 @@ hr{
     .aboutwrapper .shoptitle{
         width: 600px;
         justify-content: left;
+    }
+
+    .aboutsite{
+        height: 500px;
+        width: 750px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    .aboutsite h1{
+        font-family: 'exo 2';
+    }
+    
+    .aboutsite p{
+        font-family: 'exo 2';
+        padding: 10px;
+        /* text-align: center; */
     }
 }
